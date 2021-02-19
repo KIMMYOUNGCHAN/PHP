@@ -1,0 +1,28 @@
+h1 {
+  font-size:50px;
+  text-align: center;
+  border-bottom:5px solid gray;
+  margin:0;
+  padding:5px;
+}
+a{
+  color : black;
+  text-decoration: none;
+}
+ol{
+  border-right:5px solid gray;
+  width:80px;
+  margin:0;
+  padding:17px;
+  }
+    #grid{
+      display: grid;
+      grid-template-columns: 130px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+      padding-right: 0px;
+    }
+    #grid #article{
+  padding-left : 18px;
+}
